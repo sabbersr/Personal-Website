@@ -1,7 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,600&display=swap');
 body{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'STIX Two Text', serif;
+    font-family: 'Poppins', sans-serif;
 }
+.top-banner{
+ background-image: url(images/header-bg.png);
+ height: 600px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+span{
+    color: crimson;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, crimson, deeppink);
+    padding: 10px 20px;
+    color:white;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.biography-section{
+    background-image: url(images/biography-bg.png);
+    padding-top: 100px;
+    height: 800px;
+}
+.myLatestWork-section{
+   height: 500px;
+   background-image: url(images/latest-work-bg.png);
+   padding-bottom: 50px;
+}
+.myLatestWork-section h2{
+    text-align: center;
+    padding: 50px 0;
+}
+.third-one{
+    width: 26%;
+    margin-left: 3%;
+    padding-left: 2%;
+    float: left;
+}
+.third-one img{
+    width: 100%;
+}
+.client-say{
+    text-align: center;
+    margin-top: 60px;
+    height: 600px;
+    background-image: url(images/footer-bg.png);
+}
+.client-say h4{
+       margin-bottom: 0;
+}
+.client-say h5{
+    font-weight: 500;
+}
+.contact{
+    margin-top: 80px;
+    padding: 40px 200px;
+    background-image: linear-gradient(180deg, deeppink, crimson);
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+
+}
+.contact p{
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
